@@ -7,7 +7,14 @@ class Question extends Component {
   render() {
     return (
       <div>
-        Add your QuestionText, Reset Button and AnswerButtons here.  
+
+        <h1> {this.props.questiontext} </h1>
+        <div>
+            <p>Code Next</p>
+            <p></p>
+            <p></p>
+            <p></p>
+        </div>
       </div>
     );
   }
