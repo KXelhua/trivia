@@ -1,17 +1,17 @@
 import React, { Component } from 'react';
 import '../css/App.css';
- import Question from './Question';
 
-class App extends Component {
+
+class Answer extends Component {
 
   render() {
     return (
-      <div className="app">
-        <Question questiontext ='What was Code Nations previous name?'/>
+      <div className="answer">
+        <p> {this.props.answertext} </p>
         
       </div>
     );
   }
 }
 
-export default App;
+export default Answer;

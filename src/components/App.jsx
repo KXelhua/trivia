@@ -7,7 +7,7 @@ class App extends Component {
   render() {
     return (
       <div className="app">
-        <Question questiontext ='What was Code Nations previous name?'/>
+        <Question questiontext ="How many states are in the United States?"/>
         
       </div>
     );

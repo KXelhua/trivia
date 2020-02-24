@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 // import components
-
+import Answer from './Answer';
 
 class Question extends Component {
   
@@ -10,10 +10,10 @@ class Question extends Component {
 
         <h1> {this.props.questiontext} </h1>
         <div>
-            <p>Code Next</p>
-            <p></p>
-            <p></p>
-            <p></p>
+        <Answer answertext= "48" />
+        <Answer answertext= "13" />
+        <Answer answertext= "52" />
+        <Answer answertext= "50" />
         </div>
       </div>
     );
