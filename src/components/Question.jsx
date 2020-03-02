@@ -9,11 +9,11 @@ class Question extends Component {
       <div>
 
         <h1> {this.props.questiontext} </h1>
-        <div>
-        <Answer answertext= "48" />
-        <Answer answertext= "13" />
-        <Answer answertext= "52" />
-        <Answer answertext= "50" />
+        <div> 
+          <Answer answertext= {this.props.questionInfo.choices[0]} />
+          <Answer answertext= {this.props.questionInfo.choices[1]} />
+          <Answer answertext= {this.props.questionInfo.choices[2]} />
+          <Answer answertext= {this.props.questionInfo.choices[3]} />
         </div>
       </div>
     );
